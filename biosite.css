@@ -19,7 +19,7 @@ body {
   /* main background image */
   background:
     linear-gradient(rgba(30,0,0,0.72), rgba(30, 0, 0, 0.72)),
-    url("images/background3.png");
+    url("images/background3.PNG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ p {
   /* secondary background image behind panel grid */
   background:
     linear-gradient(rgba(12,12,18,0.72), rgba(12,12,18,0.72)),
-    url("images/background2a.png");
+    url("images/background2a.PNG");
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(255,255,255,0.08);
@@ -145,10 +145,10 @@ p {
 }
 
 /* Waveform images */
-.panel-1 .track-wave { background-image: url("images/purple_track.png"); }
-.panel-2 .track-wave { background-image: url("images/orange_track.png"); }
-.panel-3 .track-wave { background-image: url("images/green_track.png"); }
-.panel-4 .track-wave { background-image: url("images/purple_track.png"); }
+.panel-1 .track-wave { background-image: url("images/purple_track.PNG"); }
+.panel-2 .track-wave { background-image: url("images/orange_track.PNG"); }
+.panel-3 .track-wave { background-image: url("images/green_track.PNG"); }
+.panel-4 .track-wave { background-image: url("images/purple_track.PNG"); }
 
 .panel-inner {
   margin: 20px;
