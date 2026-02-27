@@ -19,7 +19,7 @@ body {
   /* main background image */
   background:
     linear-gradient(rgba(30,0,0,0.72), rgba(30, 0, 0, 0.72)),
-    url("images/background3.png");
+    url("images/background3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ p {
   /* secondary background image behind panel grid */
   background:
     linear-gradient(rgba(12,12,18,0.72), rgba(12,12,18,0.72)),
-    url("images/background2a.png");
+    url("images/background2.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(255,255,255,0.08);
@@ -145,15 +145,15 @@ p {
 }
 
 /* Waveform images */
-.panel-1 .track-wave { background-image: url("images/purple_track.png"); }
-.panel-2 .track-wave { background-image: url("images/orange_track.png"); }
-.panel-3 .track-wave { background-image: url("images/green_track.png"); }
-.panel-4 .track-wave { background-image: url("images/purple_track.png"); }
+.panel-1 .track-wave { background-image: url("images/1purple_track.jpg"); }
+.panel-2 .track-wave { background-image: url("images/1orange_track.jpg"); }
+.panel-3 .track-wave { background-image: url("images/1green_track.jpg"); }
+.panel-4 .track-wave { background-image: url("images/1purple_track.jpg"); }
 
 .panel-inner {
   margin: 20px;
   padding: 40px;
-  background: rgba(20, 20, 28, 0.72);
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 14px;
   backdrop-filter: blur(10px);
@@ -211,10 +211,12 @@ p {
 }
 
 /* Panel 4 Grid (text + album art pairs) */
+
+
 .panel-4 .panel-4-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px;
+  gap: 50px;
   margin-top: 18px;
   align-items: start;
 }
@@ -236,6 +238,12 @@ p {
   max-width: 320px;
   border-radius: 12px;
   box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+
+.album-text {
+  width: 100%;
+  max-width: 320px;
+  
 }
 
 /* Links */
