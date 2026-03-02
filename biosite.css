@@ -17,8 +17,7 @@ body {
   font-family: "Roboto", system-ui, sans-serif;
   color: rgba(255,255,255,0.86);
   /* main background image */
-  background:
-    linear-gradient(rgba(30,0,0,0.72), rgba(30, 0, 0, 0.72)),
+  background: linear-gradient(rgba(30,0,0,0.72), rgba(30, 0, 0, 0.72)),
     url("images/background3.jpg");
   background-size: cover;
   background-position: center;
