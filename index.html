@@ -9,6 +9,13 @@
   <!-- Responsive design  -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>
+  function closePanel(button) {
+    const panel = button.closest("details");
+    panel.removeAttribute("open");
+  }
+</script>
+
   <title>An Introduction to Andy</title>
 
   <!-- Google Fonts  -->
@@ -20,6 +27,8 @@
   />
 
   <link rel="stylesheet" href="biosite.css" />
+
+  
 </head>
 
 <body>
@@ -90,6 +99,10 @@
             In his quieter moments, Andy enjoys revisiting old games and watching comedies and
             science fiction. At his core, he describes himself simply and sincerely: kind, peaceful, and open.
           </p>
+          <div class="panel-close">
+           <button onclick="closePanel(this)">&mdash;</button>
+           </div>
+      
         </div>
       </details>
 
@@ -116,6 +129,11 @@
             Andy has also played baseball since he was in grade school. As an adult, he has played in amateur leagues as well. While he's not currently
             playing in a league, he loves to practice pitching and watch old baseball games.
           </p>
+
+          <div class="panel-close">
+           <button onclick="closePanel(this)">&mdash;</button>
+           </div>
+          
         </div>
       </details>
 
@@ -154,6 +172,9 @@
               <img src="images/housevacations3.jpg" alt="House Vacations once more" loading="lazy" />
             </a>
           </div>
+            <div class="panel-close">
+           <button onclick="closePanel(this)">&mdash;</button>
+           </div>
         </div>
       </details>
 
@@ -213,6 +234,9 @@
             </article>
 
           </div>
+          <div class="panel-close">
+           <button onclick="closePanel(this)">&mdash;</button>
+           </div>
         </div>
       </details>
 

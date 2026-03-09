@@ -75,7 +75,7 @@ p {
   /* secondary background image behind panel grid */
   background:
     linear-gradient(rgba(12,12,18,0.72), rgba(12,12,18,0.72)),
-    url("images/background2.jpg");
+    url("images/background2a.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(255,255,255,0.08);
@@ -173,6 +173,26 @@ p {
 }
 
 
+/*adding button to close panel*/
+.panel-close {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.panel-close button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.panel-close button:hover {
+  background: #333;
+}
+
+
 .panel-intro {
   font-size: 1.05rem;
   text-align: left;
@@ -183,8 +203,7 @@ p {
   font-weight: 500;
 }
 
-/* Image gallery - attempting to preserve aspect ratio of images */
-/* Still working out how to format images so they are arranged more nicely */
+
 .gallery {
   margin-top: 18px;
   display: grid;
